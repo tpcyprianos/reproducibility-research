@@ -10,5 +10,5 @@ The files are organized as follow:
 
 ## Research Workflow
 
-![Research Workflow](../figures/workflow-files.png)
+![Research Workflow](figures/workflow-files.png)
 
