@@ -1,6 +1,6 @@
 # Reproducibility Research
 
-This repository contains codes and files used during the subject "Reproducibility in Research" at Unicamp. The main objective is to create a Executable Paper and give all sources necessary to reproduce the research.
+This repository contains codes and files used during the subject "Reproducibility in Research" at Unicamp. The main objective was to create an Executable Paper by giving all sources necessary to reproduce the research.
 
 ## Files Structure
 
@@ -17,3 +17,6 @@ The files are organized as follow:
 
 
 ## Instructions
+
+## Paper
+The experiment results and paper of research is available in /deliver, or you can click here: [Paper](deliver/paper.ipynb)
