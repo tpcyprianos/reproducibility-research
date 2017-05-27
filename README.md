@@ -1,6 +1,9 @@
 # Reproducibility Research
 
-Codes and Files used during the subject "Reproducibility in Research" at Unicamp. 
+This repository contains codes and files used during the subject "Reproducibility in Research" at Unicamp. The main objective is to create a Executable Paper and give all sources necessary to reproduce the research.
+
+## Files Structure
+
 The files are organized as follow:
 
 * /data - Facebook metrics
@@ -12,3 +15,5 @@ The files are organized as follow:
 
 ![Research Workflow](figures/workflow-files.png)
 
+
+## Instructions
