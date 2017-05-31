@@ -7,4 +7,4 @@ For running the experiments in this research, the Programming Language selected 
 ## Workflow
 
 
-![Workflow of Experiment Development](../figures/workflow-dev.svg)
+![Workflow of Experiment Development](../figures/workflow-dev.png)
