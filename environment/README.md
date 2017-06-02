@@ -2,7 +2,7 @@
 Before to start the experiment, make sure your setup is according to what is describe here. 
 
 ## Languages and Libraries
-For running the experiments in this research, the follows were selected:
+For running the experiments in this research the follows languages and libraries were selected:
 
 1. Environment: [Anaconda3 4.3.1](https://repo.continuum.io/archive/index.html)
 2. Programming Language: [Python 3.3](https://www.python.org/) 
