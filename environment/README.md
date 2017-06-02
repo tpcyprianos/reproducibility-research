@@ -17,7 +17,7 @@ For running the experiments in this research, the follows were selected:
 2. Run the Neo4j
 3. In the Neo4j's Interface select an empty directory for your Graph Database (The Server has a default, check out) 
 4. Start the Server
-5. Open in your Browse (http://127.0.0.1:7474/browser/)
+5. Open it in your Browser (http://127.0.0.1:7474/browser/)
 6. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
 7. Go to [../deliver](../deliver) to run the codes.
 
@@ -26,4 +26,15 @@ For running the experiments in this research, the follows were selected:
 1. Install the [Docker toolbox](https://www.docker.com/products/docker-toolbox)
 2. Create you account in [Docker Hub](https://hub.docker.com/)
 3. In Docker Hub the Neo4j's image is available on: [Neo4j in Docker Hub](https://hub.docker.com/_/neo4j/)
-4. 
+4. Open your Docker Toolbox
+5. Make the pull of the image: docker pull neo4j
+6. Start an instance of Neo4j:
+```
+docker run \
+    --publish=7474:7474 --publish=7687:7687 \
+    --volume=$HOME/neo4j/data:/data \
+    neo4j
+```
+7. Open in your Browser (http://localhost:7474) *Check out in the benning of your Docker shell the IP Address that it configures, and replace in the localhost this IP Address*
+8. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
+Note: The Graph Database will be in the directory: ``$HOME/Neo4j/Data``
