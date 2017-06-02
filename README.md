@@ -18,4 +18,4 @@ The files are organized as follow:
 2. Access the paper and codes in ``/deliver`` directory
 
 ## Paper
-The experiment results and paper of research is available in directory /deliver, or you can click here: [Paper](deliver/paper.ipynb)
+The experiment results and paper of research is available in ``/deliver`` directory, or you can click here: [Paper](deliver/paper.ipynb)
