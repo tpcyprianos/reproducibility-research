@@ -6,7 +6,7 @@ For running the experiments in this research, the follows were selected:
 
 1. Environment: [Anaconda3 4.3.1](https://repo.continuum.io/archive/index.html)
 2. Programming Language: [Python 3.3](https://www.python.org/) 
-3. Dataframe Library: [Panda](http://pandas.pydata.org/).
+3. Dataframe Library: [Panda 0.19.2](http://pandas.pydata.org/).
 4. Neo4j-Python Driver: [Py2neo v3](http://py2neo.org/v3/)
 
 
@@ -35,6 +35,6 @@ docker run \
     --volume=$HOME/neo4j/data:/data \
     neo4j
 ```
-7. Open in your Browser (http://localhost:7474) *Check out in the benning of your Docker shell the IP Address that it configures, and replace in the localhost this IP Address*
+7. Open in your Browser (http://localhost:7474) *Check out in the benning of your Docker shell the IP Address that it configures, and replace the localhost to the IP Address*
 8. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
 Note: The Graph Database will be in the directory: ``$HOME/Neo4j/Data``
