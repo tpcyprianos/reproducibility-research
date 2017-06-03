@@ -13,32 +13,14 @@
 # 2. Your Neo4j server is started (locally or container Docker)
 # 3. The parameters of host, user and password of graph database are corrects
 
-# In[54]:
+# In[1]:
 
-from py2neo import authenticate, Graph
+from py2neo import authenticate, Graph, Node
 
-class ConnectionNeo4j:
-    host     = "127.0.0.1:7474/"
-    user     = "neo4j"
-    password = "neo4jresearch"
-    
-    def __init__(self):
-        try:
-            authenticate(host, user, password)
-            self.graph = Graph("http://"+ host)
-        except:
-            print ("Error to connect the Graph Database")
-    
-    def getGraph(self):
-        return self.graph
+host     = "127.0.0.1:7474/"
+user     = "neo4j"
+password = "neo4jresearch"
 
-
-# In[55]:
-
-gra = ConnectionNeo4j
-
-
-# In[56]:
-
-print(gra.getGraph)
+authenticate(host, user, password)
+graph = Graph("http://"+ host)
 
