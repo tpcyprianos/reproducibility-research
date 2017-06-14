@@ -9,11 +9,8 @@ The files are organized as follow:
 * /data - Dataset Facebook metrics (original and processed)
 * /deliver - The executable paper and experiment's codes
 * /dev - Codes and notebooks used during the experiment
-* /enviroment - Configuration of development environment
 * /figures - Figures used on research
 
-
-## Instructions
 ## Development Environment
 Before to start the experiment, make sure your setup is according to what is describe here. 
 
@@ -55,9 +52,6 @@ docker run \
 8. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
 Note: The Graph Database will be in the directory: ``$HOME/Neo4j/Data``
 
-## Instructions
-
-
 ## Paper
 
 The experiment results and paper of research is available in ``/deliver`` directory, or you can click here: [Paper](deliver/paper.ipynb)
@@ -72,7 +66,7 @@ The workflow with the inputs and outputs of this research is organized as follow
 
 To execute the experiment, follow the steps:
 
-1. Make sure you have did all installation steps (described in ``\environment``). 
+1. Make sure you have did all installation steps (development). 
 2. Start your Neo4j Server.
 3. Verifiy the code ``connection_neo4j.ipynb``. The ``host``, ``user`` and ``password`` need to be corrects. 
 3. Follow the workflow image: first, execute the Prepreprocessing (``preprocessing_data.ipynb``).
