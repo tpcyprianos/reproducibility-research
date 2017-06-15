@@ -60,7 +60,7 @@ The experiment results and paper of research is available in ``/deliver`` direct
 
 The workflow with the inputs and outputs of this research is organized as follows:
 
-![Workflow Research](../figures/research.png)
+![Workflow Research](../figures/Research.png)
 
 ## Execute the experiment
 
