@@ -52,15 +52,14 @@ docker run \
 8. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
 Note: The Graph Database will be in the directory: ``$HOME/Neo4j/Data``
 
-## Paper
-
-The experiment results and paper of research is available in ``/deliver`` directory, or you can click here: [Paper](deliver/paper.ipynb)
 
 ## Workflow 
 
 The workflow with the inputs and outputs of this research is organized as follows:
 
 ![Workflow Research](figures/Research.png)
+
+The files can be founded ``/deliver``
 
 ## Execute the experiment
 
@@ -72,3 +71,13 @@ To execute the experiment, follow the steps:
 3. Follow the workflow image: first, execute the Prepreprocessing (``preprocessing_data.ipynb``).
 4. Secondly, execute the ``indexing_data.ipynb``.
 5. Open the Neo4j Server in Browser, the graph generated can be visualized.
+6. Run the [Cypher query](https://neo4j.com/docs/cypher-refcard/current/):
+
+```
+MATCH (n) RETURN n
+```
+The Graph Database will return and display the complete graph.
+
+## Paper
+
+The experiment results and paper of research is available in ``/deliver`` directory, or you can click here: [Paper](deliver/paper.ipynb)
