@@ -80,4 +80,4 @@ The Graph Database will return and display the complete graph.
 
 ## Paper
 
-The experiment results and paper of research is available in ``/deliver`` directory, or you can click here: [Paper](deliver/paper.ipynb)
+The experiment results and paper of research is available in ``/deliver`` directory, or you can click here: [Paper](deliver/paper.pdf)
