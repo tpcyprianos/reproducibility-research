@@ -15,7 +15,7 @@ The files are organized as follow:
 Before to start the experiment, make sure your setup is according to what is describe here. 
 
 ### Languages and Libraries
-For running the experiments in this research the follows languages and libraries were selected:
+For running the experiments in this research the following languages and libraries were selected:
 
 1. Environment: [Anaconda3 4.3.1](https://repo.continuum.io/archive/index.html)
 2. Programming Language: [Python 3.3](https://www.python.org/) 
@@ -32,15 +32,15 @@ For running the experiments in this research the follows languages and libraries
 4. Start the Server
 5. Open it in your Browser (http://127.0.0.1:7474/browser/)
 6. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
-7. Go to [../deliver](../deliver) to run the codes.
+7. Go to [/deliver](/deliver) to run the codes according "Workflow".
 
 
 #### Option 2: Docker
 1. Install the [Docker toolbox](https://www.docker.com/products/docker-toolbox)
-2. Create you account in [Docker Hub](https://hub.docker.com/)
+2. Create your account in [Docker Hub](https://hub.docker.com/)
 3. In Docker Hub the Neo4j's image is available on: [Neo4j in Docker Hub](https://hub.docker.com/_/neo4j/)
 4. Open your Docker Toolbox
-5. Make the pull of the image: docker pull neo4j
+5. Make the pull of the image: ```docker pull neo4j```
 6. Start an instance of Neo4j:
 ```
 docker run \
@@ -48,9 +48,9 @@ docker run \
     --volume=$HOME/neo4j/data:/data \
     neo4j
 ```
-7. Open in your Browser (http://localhost:7474) *Check out in the benning of your Docker shell the IP Address that it configures, and replace the localhost to the IP Address*
+7. Open in your Browser (http://localhost:7474) *If you are using Windows, check out in the benning of your Docker shell the IP Address that it configures, and replace the localhost to the IP Address*
 8. In the first access, the ``user`` and ``password`` are ``neo4j``, but you have to change the ``password``(For the experiment used in this repository, the password used is ``neo4jresearch``, but you can create yours)
-Note: The Graph Database will be in the directory: ``$HOME/Neo4j/Data``
+Note: The Graph Database will be create in the directory: ``$HOME/Neo4j/Data``
 
 
 ## Workflow 
@@ -59,19 +59,18 @@ The workflow with the inputs and outputs of this research is organized as follow
 
 ![Workflow Research](figures/Research.png)
 
-The files can be founded ``/deliver``
 
 ## Execute the experiment
 
 To execute the experiment, follow the steps:
 
-1. Make sure you have did all installation steps (development). 
-2. Start your Neo4j Server.
+1. Make sure you have did all installation steps (Development Environment). 
+2. Start your Neo4j Server (Local or Docker).
 3. Verifiy the code ``connection_neo4j.ipynb``. The ``host``, ``user`` and ``password`` need to be corrects. 
 3. Follow the workflow image: first, execute the Prepreprocessing (``preprocessing_data.ipynb``).
 4. Secondly, execute the ``indexing_data.ipynb``.
-5. Open the Neo4j Server in Browser, the graph generated can be visualized.
-6. Run the [Cypher query](https://neo4j.com/docs/cypher-refcard/current/):
+5. Open the Neo4j Server in Browser.
+6. The graph generated can be visualized by running the [Cypher query](https://neo4j.com/docs/cypher-refcard/current/):
 
 ```
 MATCH (n) RETURN n
