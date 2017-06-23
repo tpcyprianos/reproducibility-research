@@ -10,6 +10,7 @@ The files are organized as follow:
 * /deliver - The executable paper and experiment's codes
 * /dev - Codes and notebooks used during the experiment
 * /figures - Figures used on research
+* /utils - Some recommendations and Best Practices about the process of research
 
 ## Development Environment
 Before to start the experiment, make sure your setup is according to what is describe here. 
